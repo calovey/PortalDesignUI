@@ -1,0 +1,25 @@
+{
+  "short_name": "Customer Portal",
+  "name": "Customer Portal",
+  "icons": [
+    {
+      "src": "icoround.ico",
+      "sizes": "256x220",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "gradient-symbol-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "gradient-symbol-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
