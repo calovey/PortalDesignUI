@@ -26,26 +26,14 @@ function NavBar() {
             navbarScroll
           >
             <Nav.Link as={Link} to="/">Homepage</Nav.Link>
-            <Nav.Link as={Link} to="/CustomerDetail">Customer Detail</Nav.Link>
+            <Nav.Link as={Link} to="/Detail">Detail</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action3">Help</NavDropdown.Item>
               <NavDropdown.Item href="#action5">
                 FAQ
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search..."
-              className="me-2"
-            />
-            <Button variant="outline-secondary">Search</Button>
-          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
