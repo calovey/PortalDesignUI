@@ -26,3 +26,13 @@ code {
     align-items: center;
     height: 50px;
 }
+
+.card-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.card-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
